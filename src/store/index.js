@@ -59,7 +59,7 @@ export default new Vuex.Store({
       for (var i = 0; i < state.cartValue.length; i++) {
         if (state.cartValue[i].id == id) {
           state.cartValue[i].menge += 1
-          break;
+          break
         }
       }
 
@@ -69,7 +69,7 @@ export default new Vuex.Store({
       for (var i = 0; i < state.cartValue.length; i++) {
         if (state.cartValue[i].id == id) {
           state.cartValue[i].menge -= 1
-          break;
+          break
         }
       }
     },
@@ -96,6 +96,7 @@ export default new Vuex.Store({
       var newCartValue = []
       for (var i = 0; i < state.cartValue.length; i++) {
         if (state.cartValue[i].id == article.id) {
+          article.menge = 0
           continue
         }
         newCartValue.push(state.cartValue[i])

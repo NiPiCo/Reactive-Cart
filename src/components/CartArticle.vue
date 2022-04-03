@@ -7,7 +7,7 @@
       </div>
       <div class="row">
         <button @click="itemMinus">-</button>
-        <p>{{ menge }}</p>
+        <p>{{ article.menge }}</p>
         <button @click="itemPlus()">+</button>
       </div>
     </div>
