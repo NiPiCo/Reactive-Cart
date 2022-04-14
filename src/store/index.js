@@ -32,7 +32,7 @@ export default new Vuex.Store({
       },
       {
         id: 2,
-        name: "Tshirt",
+        name: "T-Shirt",
         preis: 16,
         menge: 0
       },
