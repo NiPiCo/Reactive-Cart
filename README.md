@@ -1,5 +1,4 @@
-# Ersatzarbeit-Carts
-Ersatzarbeit für Aufgabe 2
+
 
 Die Anwendung besteht aus mehreren Komponenten, welche immer den gleichen State nutzen. Der State und die Mutations sind in der Datei store/index.js definiert.
 
