@@ -1,4 +1,4 @@
-Eine kleine Arbeitsprobe, in welcher ein reaktiver Warenkorb simuliert wird. Ziel war es, mehrere Komponenten über den State kommunizieren zu lassen. Auf das Design wurde in diesem Projekt kein Wert gelegt.
+Eine kleine Arbeitsprobe, in welcher ein reaktiver Warenkorb simuliert wird. Ziel war es, mehrere Komponenten über den State kommunizieren zu lassen. Auf das Design wurde in diesem Projekt kein Wert gelegt (Ohne Datenbank, Daten im Warenkorb -> hard-coded).
 
 - Node.js-Laufzeitumgebung muss installiert sein.
 
